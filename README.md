@@ -18,6 +18,16 @@ This project demonstrates real-world cloud cost governance, observability, and a
 
 ---
 
+💡 Why This Project Matters
+
+Cloud environments often incur unnecessary costs due to idle or underutilized resources.
+This project demonstrates how **automation, monitoring, and governance** can be combined
+to proactively control cloud spend without impacting availability.
+
+By leveraging **serverless execution, managed identity, and real-time observability**,
+this solution reflects how modern cloud teams implement **cost efficiency as code.
+
+
 Architecture Overview
 Azure Function (Python)
 └── Timer Trigger
