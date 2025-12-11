@@ -1,35 +1,15 @@
 # Python
+.venv/
 __pycache__/
 *.pyc
-.venv/
-.python_packages/
 
-# Azure Functions / Azurite
+# Azure Functions
+local.settings.json
+.python_packages/
 __blobstorage__/
 __queuestorage__/
-__azurite_db_*.json
 AzuriteConfig
-local.settings.json
+__azurite_db_*.json
 
 # VS Code
 .vscode/
-
-# macOS
-.DS_Store# Python
-__pycache__/
-*.pyc
-.venv/
-.python_packages/
-
-# Azure Functions local artifacts
-__blobstorage__/
-__queuestorage__/
-__azurite_db_*.json
-AzuriteConfig
-local.settings.json
-
-# VS Code
-.vscode/
-
-# OS
-.DS_Store
